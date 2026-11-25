@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+build
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+.DS_Store
+npm-debug.log*
+
+# Unredacted source screenshots (contain personal data) — only the blurred
+# copies in public/media/experience/beema-ghar/ are published.
+/dashboard.png
+/families and dependencies.png
+/ocr.png
+/upload doc.png
