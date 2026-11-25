@@ -14,7 +14,7 @@ export const site = {
    * Used for canonical URLs, the sitemap and Open Graph tags.
    * When `null`, the Vercel deployment URL is used automatically if available.
    */
-  url: null as Url,
+  url: "https://portfolio-shantnu.vercel.app" as Url,
   title: "Shantnu Saxena — AI & Software Engineer",
   description:
     "Portfolio of Shantnu Saxena, a final-year Computer Science undergraduate building across AI engineering, full-stack development, blockchain and robotics simulation.",

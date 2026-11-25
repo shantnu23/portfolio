@@ -23,7 +23,7 @@ Fill in what you have, then ask Claude to apply it.
 
 ### Links
 - [ ] Optional: a Discord profile URL (`https://discord.com/users/<id>`); otherwise the username is shown with a copy button
-- [ ] Optional: custom domain (`site.url`), once deployed
+- [x] Live at https://portfolio-shantnu.vercel.app (`site.url` set). Update it if you add a custom domain.
 - [ ] Optional: live deployments for MediFix / Park_Here, if any
 
 ### Technology Mindz diagram
