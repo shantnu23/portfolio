@@ -13,7 +13,6 @@ export type Education = {
 export const education: Education[] = [
   {
     institution: "Birla Institute of Technology, Mesra",
-    campus: "Jaipur Campus",
     short: "BIT Mesra",
     program: "B.Tech in Computer Science and Engineering",
     mode: "Full-time",

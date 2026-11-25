@@ -9,7 +9,7 @@ import { CurrentFocus } from "@/components/home/AboutSection";
 import { EducationSection } from "@/components/home/EducationSection";
 import { SkillsSection } from "@/components/home/SkillsSection";
 import { PageIntro } from "@/components/shared/PageIntro";
-import { RichText } from "@/components/shared/RichText";
+import { AboutCopy } from "@/components/shared/AboutCopy";
 import { Monogram } from "@/components/ui/Monogram";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -30,12 +30,8 @@ export default function AboutPage() {
 
       <section aria-label="Introduction" className="container-page py-16 sm:py-24">
         <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
-          <Reveal className="space-y-6">
-            {about.paragraphs.map((p) => (
-              <p key={p.slice(0, 24)} className="prose-copy text-lg">
-                <RichText text={p} />
-              </p>
-            ))}
+          <Reveal>
+            <AboutCopy />
           </Reveal>
           <Reveal delay={0.08} className="space-y-5">
             {photo ? (

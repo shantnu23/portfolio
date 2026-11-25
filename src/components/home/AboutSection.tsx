@@ -4,20 +4,16 @@ import { about } from "@/content/about";
 import { profile } from "@/content/profile";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { RichText } from "@/components/shared/RichText";
+import { AboutCopy } from "@/components/shared/AboutCopy";
 
 export function AboutSection() {
   return (
     <section aria-labelledby="about-title" className="container-page py-20 sm:py-28">
       <SectionHeading id="about-title" index="01" label="About" title={about.heading} />
       <div className="grid gap-12 lg:grid-cols-[1.25fr_1fr] lg:gap-16">
-        <Reveal className="space-y-5">
-          {about.paragraphs.slice(0, 2).map((p) => (
-            <p key={p.slice(0, 24)} className="prose-copy">
-              <RichText text={p} />
-            </p>
-          ))}
-          <Link href="/about" className="group mt-2 inline-flex items-center gap-2 text-sm font-medium text-signal">
+        <Reveal>
+          <AboutCopy />
+          <Link href="/about" className="group mt-8 inline-flex items-center gap-2 text-sm font-medium text-signal">
             More about me
             <ArrowRight aria-hidden="true" className="size-4 transition-transform group-hover:translate-x-1" />
           </Link>

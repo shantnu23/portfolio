@@ -32,7 +32,7 @@ export const profile = {
   intro:
     "I'm a final-year Computer Science undergraduate working across AI engineering, full-stack development and emerging technologies. I like taking complex technical ideas apart and turning them into software that works.",
   shortRole: "CS undergraduate · AI & full-stack engineering",
-  education: ["B.Tech CSE · BIT Mesra, Jaipur Campus", "BS Data Science · IIT Madras"],
+  education: ["B.Tech CSE · BIT Mesra", "BS Data Science · IIT Madras"],
 
   /**
    * Small status pill in the hero. Set `enabled: false` to hide it.
@@ -50,13 +50,18 @@ export const profile = {
   /** "Currently" panel on the homepage. Keep each item short and honest. */
   currentFocus: [
     {
-      title: "Shaping Fam_Sync",
-      detail: "Scoping a family-coordination app before writing code.",
+      title: "Fam_Sync",
+      detail: "Building a shared space for families to stay connected, coordinate plans, and keep everyone in the loop.",
       href: "/projects/fam-sync",
     },
     {
+      title: "Mistake Diary",
+      detail: "Exploring a context-aware assistant that learns from past mistakes and surfaces useful reminders when they matter.",
+      href: null,
+    },
+    {
       title: "AI-assisted development",
-      detail: "Exploring how coding agents fit into real engineering workflows.",
+      detail: "Exploring how coding agents, structured workflows, and context management can make software development more efficient.",
       href: null,
     },
     {

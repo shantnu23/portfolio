@@ -4,11 +4,11 @@
  */
 export const about = {
   heading: "Studying computer science. Learning it by building.",
-  /** First paragraph is shown on the homepage; all are shown on /about. */
+  /** Shown on the homepage and /about. The first paragraph is styled as a lead. */
   paragraphs: [
-    "I'm in the final year of a B.Tech in Computer Science at BIT Mesra, and most of what I know has come from building alongside it — a **multi-agent AI workflow**, an **insurance-policy platform**, **robotics simulations**, and a **blockchain prototype** that finished runners-up at Algorand Road2Impact.",
-    "What I enjoy most is understanding how a system works underneath: how an agent decides what to do next, how data should be modelled before the first endpoint is written, how a robot reacts to the obstacle in front of it. That understanding is what turns an idea into an implementation.",
-    "Alongside the B.Tech, I'm pursuing IIT Madras's BS in Data Science and Applications — the programme behind Park_Here and MediFix.",
+    "I'm a final-year Computer Science student at BIT Mesra, Jaipur, and much of what I know comes from building things — **multi-agent AI systems, full-stack applications, robotics simulations, and blockchain projects.**",
+    "I'm naturally curious about how things work under the hood. Whether it's understanding how AI agents make decisions, how different parts of a system communicate, or how an idea becomes something functional, I enjoy figuring out the details rather than just getting things to work.",
+    "What excites me most is finding ways to **leverage AI to solve real-world problems, automate repetitive work, and make everyday processes faster and more efficient.** Lately, I've also been exploring AI-assisted development — learning how to work effectively with AI while staying in control of what I build.",
   ],
 
   /** Optional photo on /about. Set to null to show the monogram card instead. */
